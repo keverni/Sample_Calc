@@ -15,6 +15,7 @@ jobs:
           
       - name: Build project
         run: |
+          mkdir build && cd build
           cmake .. 
           cmake --build . --config Release
       
