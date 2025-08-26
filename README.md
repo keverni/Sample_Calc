@@ -1,4 +1,4 @@
-# Extracter
+# Sample_Calc
 Sample_Calc - Educational and just-for-fun project on С++
 
 ## Dependencies
