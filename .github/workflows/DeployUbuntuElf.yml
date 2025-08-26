@@ -20,7 +20,9 @@ jobs:
           cmake --build . --config Release
       
       - name: Test project
-        run: ctest
+        run: |
+          cd build
+          ctest
         
       - name: Create Release
         id: create_release
